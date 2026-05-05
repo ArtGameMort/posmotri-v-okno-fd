@@ -68,25 +68,25 @@ ol {
     margin: auto 0;
 }
 
-.result{
+.result {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.result__video{
+.result__video {
     width: 711px;
     height: 386px;
 }
 
-.search-form__fieldset{
+.search-form__fieldset {
     border: none;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.search-form__label{
+.search-form__label {
     display: flex;
     align-items: center;
     width: fit-content;
@@ -97,7 +97,7 @@ ol {
     font-size: 18px;
 }
 
-.search-form__textfield{
+.search-form__textfield {
     border: none;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -109,14 +109,14 @@ ol {
     font-size: 16px;
 }
 
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
     width: 19px;
     height: 19px;
     border: 1px solid white;
     padding: 1px;
 }
 
-.search-form__pseudo-checkbox::after{
+.search-form__pseudo-checkbox::after {
     content: "";
     display: block;
     background-color: white;
@@ -125,11 +125,11 @@ ol {
     opacity: 0;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
     opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover .search-form__label-text{
+.search-form__checkbox-list .search-form__label:hover .search-form__label-text {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@ ol {
     outline-offset: 1px;
 }
 
-.search-form__textfield::placeholder{
+.search-form__textfield::placeholder {
     color: rgb(255 255 255 / 0.7);
 }
 
@@ -148,29 +148,29 @@ ol {
     gap: 15px;
 }
 
-.content__details{
+.content__details {
     display: flex;
     flex-direction: column;
     gap: 26px;
 }
 
-.title{
+.title {
     font-size: 75px;
     font-weight: bold;
     line-height: 94%;
     text-transform: uppercase;
 }
 
-.content__accent{
+.content__accent {
     color: #545050;
 }
 
-.search-form{
+.search-form {
     display: flex;
     justify-content: space-between;
 }
 
-.button{
+.button {
     color: #fff;
     font-weight: bold;
     font-size: 18px;
@@ -178,103 +178,103 @@ ol {
     background-color: transparent;
 }
 
-.button:hover{
+.button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.button:active{
+.button:active {
     background-color: #545050;
 }
 
-.button:focus{
+.button:focus {
     outline: none;
 }
 
-.button:focus-visible{
+.button:focus-visible {
     outline: 1px solid white;
     outline-offset: 1px;
 }
 
-.search-form__submit-button{
+.search-form__submit-button {
     width: 194px;
     height: 34px;
     align-self: flex-end;
 }
 
-.content__list-container{
+.content__list-container {
     width: 399px;
     height: 298px;
     overflow-y: scroll;
     position: relative;
 }
 
-.result__video-container{
+.result__video-container {
     position: relative;
 }
 
-.content__list{
+.content__list {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.content__list-item{
+.content__list-item {
     padding-left: 3px;
     padding-right: 3px;
 }
 
-.content__video-card{
+.content__video-card {
     display: flex;
     justify-content: space-between;
 }
 
-.content__card-link{
+.content__card-link {
     display: block;
     text-decoration: none;
 }
 
-.content__card-link_current{
+.content__card-link_current {
     background-color: #545050;
 }
 
-.content__card-link:hover{
+.content__card-link:hover {
     text-decoration: underline white 1px;
     text-underline-offset: 4px;
     cursor: pointer;
 }
 
-.content__card-link:active{
+.content__card-link:active {
     background-color: #545050;
 }
 
-.content__card-link:focus{
+.content__card-link:focus {
     outline: none;
 }
 
-.content__card-link:focus-visible{
+.content__card-link:focus-visible {
     outline: 1px solid white;
     outline-offset: 1px;
 }
 
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
     width: 194px;
     height: 103px;
 }
 
-.content__video-card-title{
+.content__video-card-title {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
 }
 
-.content__video-card-description{
+.content__video-card-description {
     color: #fff;
     font-size: 18px;
 }
 
-.more-button{
+.more-button {
     width: 100%;
     margin-top: 31px;
 }
