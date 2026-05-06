@@ -110,7 +110,7 @@ ol {
     appearance: none;
     width: 225px;
     height: 27px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -268,8 +268,10 @@ ol {
 }
 
 .content__video-card-thumbnail {
-    width: 194px;
+    min-width: 194px;
     height: 103px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .content__video-card-title {
